@@ -17,6 +17,7 @@ router.get("/home", restrict(["NORMAL"]) ,(req, res) => {
   return res.render("home");
 });
 
+console.log("done");
 
 router.get("/login", (req, res) => {
   return res.render("login");
